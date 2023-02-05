@@ -62,7 +62,7 @@ public class Pila<T> {
         Pila aux = new Pila(array.length);
         
         for (int i = 0; i < array.length; i++) {
-            aux.push(array[1]);
+            aux.push(array[i]);
         }
         
         return aux;
